@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- JQuery -->
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .text-bold {
+            font-weight: 600 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div data-role="page">
+        <!-- navbar -->
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" class="ui-btn-active">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Heading -->
+        <center>
+            <h1>Contact Us</h1>
+            <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime libero inventore temporibus commodi ipsam.</h4>
+        </center>
+        <!-- Contact form -->
+        <div data-role="content" class="ui-content" style="margin: 30px 380px; border: 1px solid #000; border-radius: 5px;">
+            <form method="post" action="#">
+                <label class="text-bold" for="fname">Name :</label>
+                <input type="text" name="fname" placeholder="Your name" id="fname">
+                <label class="text-bold" for="mobile">Mobile Number :</label>
+                <input type="number" name="mobile" placeholder="Your mobile number" id="mobile">
+                <label class="text-bold" for="email">Email :</label>
+                <input type="email" name="email" placeholder="Your email" id="email">
+                <label class="text-bold" for="sub">Subject :</label>
+                <input type="text" name="sub" placeholder="Subject here" id="sub">
+                <label class="text-bold" for="msg">Message :</label>
+                <textarea cols="4" placeholder="Message"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <!-- Footer -->
+        <div data-role="footer" data-theme="b">
+            <center>
+                <div id="quicklinks">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home |</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <p>Copyright 2023 | All Rights Reserved.</p>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
